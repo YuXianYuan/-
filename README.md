@@ -21,6 +21,11 @@ int main()
  * cube_str : {U1,U2,U3,U4,R1,R2,R3,R4,F1,F2,F3,F4,D1,D2,D3,D4,L1,L2,L3,L4,B1,B2,B3,B4}
  * cube_str[U4] = B,即：U4位置上的颜色是B
  * cube_str[U4] = B, that is, the color at position U4 is B
+
+ * 备注1：由于DBL角块被固定住，因此D3、B4、L3的颜色必须为D、B、L。
+ * Note 1: Since DBL corner blocks are fixed, the colors of D3, B4, and L3 must be D, B, and L
+ * 备注2：move_out在求解器函数中仅是一个指针，需要在调用前申请成数组。
+ * Note 2: move_out is just a pointer in the solver function and needs to be converted into an array before being called.
  */
     //随机生成10组打乱的魔方
    // Randomly generate 10 groups of scrambled cubes
