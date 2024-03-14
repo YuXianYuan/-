@@ -1,4 +1,4 @@
-## - 简介 intro
+## - 简介 introduction
 使用迭代加深算法求解二阶魔方最优解
 IDA* is used to solve the second-order Rubik's cube optimal solution
 纯C语言版本
@@ -6,7 +6,8 @@ Pure C language version
 需要大约110k的flash空间，在stm32f103(64Mhz)上运行平均时间150ms
 About 110k of flash space is required, and the average running time on the stm32f103(64Mhz) is 150ms
 
-## - 测试 Test
+## - 测试 test
+```C
 int main()
 {
 /*
@@ -46,4 +47,4 @@ int main()
     system("pause");
     return 0;
 }
-
+```
