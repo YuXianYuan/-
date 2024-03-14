@@ -53,3 +53,94 @@ int main()
     return 0;
 }
 ```
+## - 测试输出 test out
+```C
+---------------------------------start
+cube_str: F,U,B,R,U,B,D,F,D,B,F,F,L,L,D,D,U,R,L,U,L,R,R,B
+slover return:0
+moves: R3 F3 R2 U3 F1 R3 F2 R3 U3  (9)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: R,U,D,L,B,L,R,L,F,U,U,B,R,U,D,D,B,R,L,F,F,D,F,B
+slover return:0
+moves: R3 U2 R3 F3 U3 F3 R1 F2 U1  (9)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: R,U,L,F,U,B,B,L,F,R,R,R,D,D,D,F,U,D,L,F,L,B,U,B
+slover return:0
+moves: R1 F2 U1 F2 R3 F3 U3 R1  (8)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: U,R,U,F,R,B,L,F,L,D,B,D,D,F,D,R,F,B,L,R,U,L,U,B
+slover return:0
+moves: R1 F2 R2 U3  (4)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: F,U,B,F,U,R,L,B,U,R,F,F,D,U,D,R,R,L,L,L,B,D,D,B
+slover return:0
+moves: R3 U1 R3 U2 R3 F3 U2 F1  (8)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: L,U,F,D,L,B,U,F,R,F,D,R,R,B,D,R,U,D,L,B,L,F,U,B
+slover return:0
+moves: U3 R1 F2 U3 R2 U1 F3 R2  (8)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: B,F,D,L,F,R,F,D,R,D,R,U,U,L,D,R,U,B,L,B,U,L,F,B
+slover return:0
+moves: U1 R1 U1 R3 U1 F1 R2 F1 U3  (9)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: U,R,L,B,D,F,U,F,F,R,L,R,B,B,D,R,F,D,L,U,D,L,U,B
+slover return:0
+moves: R1 U1 R2 F1 R3 U1 R2 F1  (8)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: L,B,R,F,R,L,F,R,B,D,R,L,U,D,D,U,U,D,L,B,U,F,F,B
+slover return:0
+moves: U3 F2 R2 F1 R1 U2 F3 R2 U1 R3  (10)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+..
+..
+..
+---------------------------------start
+cube_str: F,U,D,F,U,R,R,R,L,R,B,D,U,B,D,F,L,F,L,L,B,U,D,B
+slover return:0
+moves: R3 F3 U3 F1 U3 F2 U2  (7)
+cube_str: U,U,U,U,R,R,R,R,F,F,F,F,D,D,D,D,L,L,L,L,B,B,B,B
+cube.pos:01234567  cube.dir:00000000
+```
+
